@@ -21,3 +21,19 @@
     background-color: RGB(36, 40, 150);
     border: 15px solid RGB(2, 10, 117);
 }
+
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #vert {
+        order: 0;
+    }
+    .box {
+        width: 50%;
+        height: 50vh;
+        order: 1;
+    }    
+}
