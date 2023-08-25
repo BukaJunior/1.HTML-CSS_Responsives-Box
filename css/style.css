@@ -37,3 +37,15 @@
         order: 1;
     }    
 }
+
+@media screen and (min-width: 900px) {
+    
+    #noir {
+       display: none;
+    }
+
+    .box {
+        width: calc(100% / 3);
+        height: 100vh;
+    }
+}
