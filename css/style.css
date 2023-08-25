@@ -1,1 +1,23 @@
 /* stylelint-disable no-missing-end-of-source-newline */
+.box {
+    height: 25vh;
+}
+#noir {
+    background-color: RGB(34, 34, 34);
+    border: 15px solid RGB(0, 0, 0);
+}
+
+#vert {
+    background-color: RGB(42, 151, 44);
+    border: 15px solid RGB(13, 118, 15);
+}
+
+#rouge {
+    background-color: RGB(151, 36, 38);
+    border: 15px solid RGB(118, 2, 6);
+}
+
+#bleu {
+    background-color: RGB(36, 40, 150);
+    border: 15px solid RGB(2, 10, 117);
+}
